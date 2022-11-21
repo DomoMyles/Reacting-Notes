@@ -46,9 +46,9 @@ export const getDb = async () => {
   const result = await request
   result
     ?
-    console.log("data retreived from database", result.value) :
+    console.log("data retreived form database", result.value) :
     console.log("data not found in database")
-    // console.error('getDb not implemented');
+    console.error('getDb not implemented');
 }
 
 
